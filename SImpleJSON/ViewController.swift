@@ -84,6 +84,7 @@ class ViewController: UIViewController {
             self.genderProbResults = results
             print(results)
         }
+        
         self.delegate?.passName(nameTextField.text!) // Delegate not being called
         self.present(GenderView(), animated: true)
     }
